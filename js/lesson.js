@@ -12,6 +12,3 @@ getPosts(api_url, (posts) => {
   });
 });
 
-// console.log("END");
-// api.jsonbin.io
-// Write to Б. Сайхнаа
