@@ -1,8 +1,8 @@
 class MyHeader extends HTMLElement{
     connectedCallback(){
-        this.innerHTML = `<section>
+        this.innerHTML =`<section>
         <div class="header">
-            <a href="" class="header-contact"><i class="fa-solid fa-envelope"></i> Холбоо барих<a>
+            <a href="" class="header-contact"><i class="fa-solid fa-envelope"></i>${this.getAttribute('name')}<a>
             <a href="https://www.facebook.com/videosurgalt" class="header-fc"><i class="fa-brands fa-facebook"></i> Пэйж : fb.com/videosurgalt</a>
             <a href="fb.com/groups/asuult.it" class="header-page"><i class="fa-brands fa-facebook-f"></i> Сурагчдын групп : fb.com/groups/asuult.it</a>
             <a href="" class="header-phone"><i class="fa-solid fa-phone"></i> Холбогдох утас : 9930-1979, 8950-1979</a>
